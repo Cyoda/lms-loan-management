@@ -11,7 +11,7 @@ A **Gradle project** using **Spring Boot** with **Cyoda integration** for buildi
 ### 1. Clone the Project
 
 ```bash
-git clone https://github.com/Cyoda-platform/java-client-template.git
+git clone https://github.com/Cyoda/java-client-template.git
 cd java-client-template
 ```
 

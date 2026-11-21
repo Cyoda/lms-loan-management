@@ -21,7 +21,7 @@ You can trigger the workflow programmatically using the GitHub REST API:
 curl -X POST \
   -H "Accept: application/vnd.github.v3+json" \
   -H "Authorization: token ${GITHUB_TOKEN}" \
-  https://api.github.com/repos/Cyoda-platform/java-client-template/actions/workflows/build.yml/dispatches \
+  https://api.github.com/repos/Cyoda/java-client-template/actions/workflows/build.yml/dispatches \
   -d '{
     "ref": "main",
     "inputs": {
@@ -101,12 +101,12 @@ Artifacts are retained for 30 days (JARs) or 7 days (test results).
 ```bash
 # Get latest workflow run status
 curl -H "Authorization: token ${GITHUB_TOKEN}" \
-  "https://api.github.com/repos/Cyoda-platform/java-client-template/actions/workflows/build.yml/runs?per_page=1" \
+  "https://api.github.com/repos/Cyoda/java-client-template/actions/workflows/build.yml/runs?per_page=1" \
   | jq '.workflow_runs[0] | {id, status, conclusion, head_branch}'
 
 # Get specific run status
 curl -H "Authorization: token ${GITHUB_TOKEN}" \
-  "https://api.github.com/repos/Cyoda-platform/java-client-template/actions/runs/{run_id}" \
+  "https://api.github.com/repos/Cyoda/java-client-template/actions/runs/{run_id}" \
   | jq '{id, status, conclusion, head_branch, html_url}'
 ```
 

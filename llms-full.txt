@@ -5,21 +5,21 @@
 ## Documentation
 
 default branch: main
-- [README](https://github.com/Cyoda-platform/java-client-template/${branch}/README.md): Complete project documentation including setup, architecture, and workflow configuration
-- [Usage Rules](https://github.com/Cyoda-platform/java-client-template/${branch}/usage-rules.md): Developer and AI agent guidelines for following project conventions
-- [Augment Guidelines](https://github.com/Cyoda-platform/java-client-template/${branch}/.augment-guidelines): Project overview and development workflow guidelines
+- [README](https://github.com/Cyoda/java-client-template/${branch}/README.md): Complete project documentation including setup, architecture, and workflow configuration
+- [Usage Rules](https://github.com/Cyoda/java-client-template/${branch}/usage-rules.md): Developer and AI agent guidelines for following project conventions
+- [Augment Guidelines](https://github.com/Cyoda/java-client-template/${branch}/.augment-guidelines): Project overview and development workflow guidelines
 
 ## Code Examples
 
-- [LLM Example Directory](https://github.com/Cyoda-platform/java-client-template/${branch}/llm_example/): Complete examples and templates for all components
-  - [Code Examples](https://github.com/Cyoda-platform/java-client-template/${branch}/llm_example/code/): Implementation examples
-    - [Controllers](https://github.com/Cyoda-platform/java-client-template/${branch}/llm_example/code/controller/): REST controller patterns
-    - [Entities](https://github.com/Cyoda-platform/java-client-template/${branch}/llm_example/code/entity/): Entity class implementations
-    - [Processors](https://github.com/Cyoda-platform/java-client-template/${branch}/llm_example/code/processor/): Workflow processor examples
-    - [Criteria](https://github.com/Cyoda-platform/java-client-template/${branch}/llm_example/code/criterion/): Workflow criteria examples
-    - [Patterns](https://github.com/Cyoda-platform/java-client-template/${branch}/llm_example/code/patterns/): Patterns and anti-patterns guide
-  - [Configuration Examples](https://github.com/Cyoda-platform/java-client-template/${branch}/llm_example/config/): Configuration templates
-    - [Workflow Configs](https://github.com/Cyoda-platform/java-client-template/${branch}/llm_example/config/workflow/): Workflow JSON configuration templates
+- [LLM Example Directory](https://github.com/Cyoda/java-client-template/${branch}/llm_example/): Complete examples and templates for all components
+  - [Code Examples](https://github.com/Cyoda/java-client-template/${branch}/llm_example/code/): Implementation examples
+    - [Controllers](https://github.com/Cyoda/java-client-template/${branch}/llm_example/code/controller/): REST controller patterns
+    - [Entities](https://github.com/Cyoda/java-client-template/${branch}/llm_example/code/entity/): Entity class implementations
+    - [Processors](https://github.com/Cyoda/java-client-template/${branch}/llm_example/code/processor/): Workflow processor examples
+    - [Criteria](https://github.com/Cyoda/java-client-template/${branch}/llm_example/code/criterion/): Workflow criteria examples
+    - [Patterns](https://github.com/Cyoda/java-client-template/${branch}/llm_example/code/patterns/): Patterns and anti-patterns guide
+  - [Configuration Examples](https://github.com/Cyoda/java-client-template/${branch}/llm_example/config/): Configuration templates
+    - [Workflow Configs](https://github.com/Cyoda/java-client-template/${branch}/llm_example/config/workflow/): Workflow JSON configuration templates
 
 ```
 java-client-template/
@@ -42,13 +42,13 @@ java-client-template/
 
 ## Requirements & Specifications
 
-- [Functional Requirements](https://github.com/Cyoda-platform/java-client-template/${branch}/src/main/java/com/java_template/prototype/functional_requirement.md): Detailed functional requirements for the user application
-- [User Requirements](https://github.com/Cyoda-platform/java-client-template/${branch}/src/main/java/com/java_template/prototype/user_requirement.md): User-focused requirements specification for the user application
+- [Functional Requirements](https://github.com/Cyoda/java-client-template/${branch}/src/main/java/com/java_template/prototype/functional_requirement.md): Detailed functional requirements for the user application
+- [User Requirements](https://github.com/Cyoda/java-client-template/${branch}/src/main/java/com/java_template/prototype/user_requirement.md): User-focused requirements specification for the user application
 
 ## Configuration
 
-- [Build Configuration](https://github.com/Cyoda-platform/java-client-template/${branch}/build.gradle): Gradle build configuration with dependencies and plugins
-- [Environment Template](https://github.com/Cyoda-platform/java-client-template/${branch}/.env.template): Environment variables template for Cyoda integration
+- [Build Configuration](https://github.com/Cyoda/java-client-template/${branch}/build.gradle): Gradle build configuration with dependencies and plugins
+- [Environment Template](https://github.com/Cyoda/java-client-template/${branch}/.env.template): Environment variables template for Cyoda integration
 
 ---
 
@@ -78,7 +78,7 @@ A structured template for building scalable web clients using **Spring Boot**, d
 ### 1. Clone the Project
 
 ```bash
-git clone https://github.com/Cyoda-platform/java-client-template.git
+git clone https://github.com/Cyoda/java-client-template.git
 cd java-client-template
 ```
 
